@@ -1,50 +1,39 @@
 # reddit-crawler
 
-*What data do we want?*
+[the-foundry/reddit-crawler](https://github.com/the-foundry/reddit-crawler)
 
+### What data do we want?
 
 - Reddit comments
-
     - create trolls or tops comments from RNN?
-
     - What subreddit do we want to start with?
-
         - r/creepypasta
-
         - r/datingadvice
-
     1. Build Scraper to get comments from reddit
-
+    2. 
 
 - Mine Hackernews Titles
-
     - Generate new ones based off those
-
 - Wikipedia Articles
-
     - crawl wikipedia articles and their dependent links to create a knowledge graph
-
 - Research Papers
 
-    - 
-
+---
 
 # Options for Crawler
 
+### Summary
 
-## Scrapy
+**Scrapy**
 
+- If *you are dealing with complex Scraping operation that requires huge speed and with low power consumption then Scrapy would be a great choice.*
 
-1. Scrapy has built-in support for extracting data from HTML sources using XPath expression and CSS expression.
+**Beautiful Soup**
 
-2. It is a portable library i.e(written in Python and runs on Linux, Windows, Mac, and BSD)
+- *If you’re new to programmer want to work with web scraping projects then you should go for **Beautiful Soup**. you can easily learn it and able to perform the operations very quickly up to a certain level of complexity.*
 
-3. It can be ***Easily Extensible.***
+**Selenium**
 
-4. It is faster than other existing scraping libraries. It can extract the websites with 20 times faster than other tools.
+- *When you want to deal with Core Javascript based web Applications and want to make browser automation with AJAX/PJAX Requests. then Selenium would be a great choice.*
 
-5. It consumes a lot less memory and CPU usage.
-
-6. It can help us to build a Robust, and flexible application with a bunch of functions.
-
-7. It has good community support for the developers but the documentation is not that much great for the beginners because it is not having a beginner friendly documentation.
+[Scrapy Vs Selenium Vs Beautiful Soup for Web Scraping.](https://towardsdatascience.com/scrapy-vs-selenium-vs-beautiful-soup-for-web-scraping-24008b6c87b8)
